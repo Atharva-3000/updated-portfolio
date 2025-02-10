@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer (Web Full Stack) with a knack for Design and WEB3. | Looking for Opportunities |",
   summary:
-    "I am a final year Computer Science Engineering student, currently engaged in building *full-stack scalable apps* with a knack for Blockchain Tech, I am extensively contributing to open source, ranked [**#10** out of 4000 in oss.gg 2024](https://oss.gg/), I have also participated in various National as well as International hackathons and have infact [won a few of them](/#hackathons), apart from this, I have also designed websites for clients on **Figma** and have also been a part of the *Web3 Community*. Currently **Looking for Opportunities**",
+    "I am a final year Computer Science Engineering student, currently engaged in building *full-stack scalable apps* with a knack for Blockchain Tech, I am extensively contributing to open source, ranked [**#10** out of 4700+ in oss.gg 2024](https://oss.gg/), I have also participated in various National as well as International hackathons and have infact [won a few of them](/#hackathons), apart from this, I have also designed websites for clients on **Figma** and have also been a part of the *Web3 Community*. Currently **Looking for Opportunities**",
   avatarUrl: "/me.png",
   skills: [
     "React",
