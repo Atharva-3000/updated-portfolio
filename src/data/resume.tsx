@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer (Web Full Stack) with a knack for Design and WEB3. | Looking for Opportunities |",
   summary:
-    "I am a final year Computer Science Engineering student, currently engaged in building *full-stack scalable apps* with a knack for Blockchain Tech, I am extensively contributing to open source, ranked [**#11** out of 4000 in oss.gg 2024](https://oss.gg/), I have also participated in various National as well as International hackathons and have infact [won a few of them](/#hackathons), apart from this, I have also designed websites for clients on **Figma** and have also been a part of the *Web3 Community*. Currently **Looking for Opportunities**",
+    "I am a final year Computer Science Engineering student, currently engaged in building *full-stack scalable apps* with a knack for Blockchain Tech, I am extensively contributing to open source, ranked [**#10** out of 4000 in oss.gg 2024](https://oss.gg/), I have also participated in various National as well as International hackathons and have infact [won a few of them](/#hackathons), apart from this, I have also designed websites for clients on **Figma** and have also been a part of the *Web3 Community*. Currently **Looking for Opportunities**",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -219,68 +219,117 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "cli-tools",
+      href: "https://github.com/Atharva-3000/commit-cli",
+      dates: "October 2024 - November 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Created a bunch of cli tools in **golang**, including a powerful, no GUI command line tool to check out your recent **git commits as well as GitHub events**, utilizing the [GitHub API](https://docs.github.com/en/rest) to fetch the data. and a simple yet powerful **tasks keeper inside cli** with all the operations you will ever need to manage your tasks.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Golang",
+        "GitHub API",
+        "Prompt UI"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Cli Tool 1 (commit-cli)",
+          href: "https://github.com/Atharva-3000/commit-cli",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Cli Tool 2 (tasker)",
+          href: "https://github.com/Atharva-3000/To-cli",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/git-cli.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Agentic Ethereum Async Hackathon",
+      dates: "January 31st - February 14th, 2025",
+      location: "Online, Remote",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed S.Y.N.X, a platform which allows web2 users to interact with web3 utilities with the help of an AI agent by just giving out prompts. Powered by Coinbase Agentkit and auth using Privy, giving financial freedom to the a.i.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+        "/agentic.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [,
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Atharva-3000/agentic-ethereum",
+        },
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://agentic-ethereum.vercel.app/",
+        }
+        
+    ],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "Hacker House Goa",
+      dates: "August 4th - 10th, 2024",
+      location: "Goa, India",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Created a platform which allows users to get loan by leasing there NFT's and there identity is verified using Anon Aadhaar.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "/hh-goa.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Atharva-3000/EngageLoan-HH-GOA",
+        },
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://engage-loan-hh-goa.vercel.app/",
+        },
+        {
+          title: "Mocks",
+          icon: <Icons.googleDrive className="h-4 w-4" />,
+          href: "https://drive.google.com/drive/folders/1PW2peFwbOYIe_qOiaLLfQzOiJuO2ytHV?usp=drive_link",
+        }
+      ],
     },
     {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      title: "oss.gg 🕹️ Open Source Month",
+      dates: "October 1st -31th, 2024",
+      location: "Remote, Online",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "Ranked #10 out of 4700 participants in the Open Source Month, contributing to various projects.",
+      image:
+        "/joystick.svg",
+      links: [
+        {
+          title: "Leaderboard",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://oss.gg/leaderboard",
+        },
+      ],
+    },
+    {
+      title: "AceHack 3.0",
+      dates: "April 6th - 7th, 2024",
+      location: "Jaipur, India",
+      description:
+        "Developed a platform which allows the users to generate there land ownership onchain and also allows them to sell/transfer it to other users via NFT.",
       icon: "public",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
-      links: [],
+        "/acehack.jpg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Atharva-3000/ace-hacks-landchain",
+        },
+      ],
     },
     {
       title: "DeveloperWeek Hackathon",
