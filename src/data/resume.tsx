@@ -69,7 +69,7 @@ export const DATA = {
       href: "https://projectxfrontend-six.vercel.app/",
       badges: ["Latest"],
       location: "Remote",
-      title: "Freelance Backend Developer",
+      title: "Backend Engineer",
       logoUrl: "/project-x.png",
       start: "Nov 2024",
       end: "Present",
